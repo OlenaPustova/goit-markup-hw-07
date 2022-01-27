@@ -1,0 +1,22 @@
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item {
+  height: 44px;
+  width: 44px;
+}
+
+.social-item + .social-item {
+  margin-left: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
