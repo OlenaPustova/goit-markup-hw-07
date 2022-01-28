@@ -31,8 +31,8 @@
   padding: 40px;
 
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
@@ -54,9 +54,8 @@
 .modal-icon {
   fill: #000000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-btn-close:hover .modal-icon,
-.modal-btn-close:focus .modal-icon {
-  fill: var(--accent-color);
+  .modal-btn-close:hover &,
+  .modal-btn-close:focus & {
+    fill: var(--accent-color);
+  }
 }

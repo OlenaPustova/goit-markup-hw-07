@@ -6,10 +6,9 @@
 .social-item {
   height: 44px;
   width: 44px;
-}
-
-.social-item + .social-item {
-  margin-left: 10px;
+  & + & {
+    margin-left: 10px;
+  }
 }
 
 .social-link {
