@@ -10,8 +10,7 @@
 }
 
 .features-item-icon {
-  display: flex;
-  align-items: center;
+  @include centered-flex;
   justify-content: center;
   margin-bottom: 30px;
   width: 100%;
@@ -25,15 +24,12 @@
 }
 
 .features-title {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font($fw: null);
+
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 .features-text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(14px, null, 1.71);
 }

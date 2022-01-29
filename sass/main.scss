@@ -1,11 +1,12 @@
 @import './utils/vars';
 @import './base/reset';
+@import './utils/mixins';
 @import './base/common';
-@import './utils/hidden'; 
+@import './utils/hidden';
 
 //COMPONENTS
 
-@import './components/container'; 
+@import './components/container';
 @import './components/logo';
 @import './components/title';
 @import './components/section';
@@ -13,8 +14,6 @@
 @import './components/social';
 @import './components/modal';
 @import './components/form';
-
-
 
 // LAYOUT
 

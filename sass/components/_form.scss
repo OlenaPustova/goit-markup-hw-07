@@ -5,10 +5,8 @@
 }
 
 .form-title {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
+  @include font(20px, 700, 1.15, 0.03em);
+
   margin-bottom: 12px;
   text-align: center;
 }
@@ -68,17 +66,13 @@
   margin-left: auto;
   margin-right: auto;
   &-text {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include centered-flex;
+    @include font(14px, null, 1.71);
   }
 }
 
 .policy-check-svg {
-  display: flex;
-  align-items: center;
+  @include centered-flex;
   justify-content: center;
   width: 15px;
   height: 15px;

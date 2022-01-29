@@ -21,11 +21,9 @@
 
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
+  @include font(14px, null, 1.7);
+
   font-style: normal;
-  text-decoration: none;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -50,9 +48,8 @@
 
 .footer-social-title,
 .footer-subscribe-title {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font($fw: null);
+
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
@@ -100,14 +97,12 @@
 }
 
 .footer-btn-icon {
-  display: flex;
-  align-items: center;
+  @include centered-flex;
   margin-left: 10px;
 }
 
 .footer-button-send {
-  display: flex;
-  align-items: center;
+  @include centered-flex;
   justify-content: center;
   padding: 10px 28px;
 }
