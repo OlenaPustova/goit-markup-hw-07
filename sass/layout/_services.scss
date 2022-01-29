@@ -6,7 +6,7 @@
   }
 }
 
-.services-item {
+.services-list__item {
   width: 370px;
   margin-right: 30px;
   position: relative;
@@ -15,13 +15,11 @@
   }
 }
 
-.services-item-title {
+.services-list__title {
+  @include font($fw: null);
   padding-top: 27px;
   padding-bottom: 27px;
   text-align: center;
-
-  @include font($fw: null);
-
   text-transform: uppercase;
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 0.8);

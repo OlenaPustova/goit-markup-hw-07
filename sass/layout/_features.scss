@@ -2,14 +2,14 @@
   display: flex;
 }
 
-.features-item {
+.features-list__item {
   width: 270px;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.features-item-icon {
+.features-list__wrap-icon {
   @include centered-flex;
   justify-content: center;
   margin-bottom: 30px;
@@ -18,18 +18,17 @@
   background-color: var(--secondary-bg-color);
 }
 
-.features-icon {
+.features-list__icon {
   width: 70px;
   height: 70px;
 }
 
-.features-title {
+.features-list__title {
   @include font($fw: null);
-
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.features-text {
+.features__text {
   @include font(14px, null, 1.71);
 }

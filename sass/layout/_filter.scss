@@ -4,14 +4,13 @@
   margin-bottom: 50px;
 }
 
-.filter-item:not(:last-child) {
+.filter-list__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.filter-button {
+.filter-list__button {
   padding: 6px 22px;
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  border-radius: 4px;
 }
